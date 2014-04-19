@@ -3,12 +3,6 @@ layout: default
 ---
 
 <article id="page" class="page">
-	<h1><%= @document.title %></h1>
-  <p><a href="<%- 'https://github.com/cjbarber/stanford-startup-wiki/edit/master/src/documents/' + @document.relativePath.replace('wiki/','') %>">
-      Edit and improve this page via GitHub!
-  </a></p>
-  <p><a href="<%- 'http://prose.io/#cjbarber/stanford-startup-wiki/edit/master/src/documents/' + @document.relativePath.replace('wiki/','') %>">
-      Edit and improve this page via Prose!
-  </a></p>
+	<h1><%= @document.title %> <small><a href="<%- 'http://prose.io/#cjbarber/stanford-startup-wiki/edit/master/src/documents/' + @document.relativePath.replace('wiki/','') %>">Edit This Page</a></small></h1>
 	<div class="page-content"><%- @content %></div>
 </article>

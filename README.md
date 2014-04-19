@@ -21,3 +21,5 @@ Then clone the site and run the docpad server:
 Now [open http://localhost:9778/](http://localhost:9778/).
 
 **Readme inspired by SBG readme.**
+
+https://gist.github.com/balupton/5519403
