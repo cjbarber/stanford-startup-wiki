@@ -7,7 +7,7 @@ layout: default
   <p><a href="<%- 'https://github.com/cjbarber/stanford-startup-wiki/edit/master/' + @document.relativePath.replace('wiki/','') %>">
       Edit and improve this page via GitHub!
   </a></p>
-  <p><a href="<%- 'https://github.com/cjbarber/stanford-startup-wiki/edit/master/' + @document.relativePath.replace('docs/','') %>">
+  <p><a href="<%- 'http://prose.io/#cjbarber/stanford-startup-wiki/edit/master/' + @document.relativePath.replace('wiki/','') %>">
       Edit and improve this page via Prose!
   </a></p>
 	<div class="page-content"><%- @content %></div>
