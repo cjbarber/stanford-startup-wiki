@@ -4,11 +4,11 @@ layout: default
 
 <article id="page" class="page">
 	<h1><%= @document.title %></h1>
-  <a href="<%- 'https://github.com/bevry/docpad-documentation/edit/master/' + @document.relativePath.replace('docs/','') %>">
+  <p><a href="<%- 'https://github.com/cjbarber/stanford-startup-wiki/edit/master/src/documents/' + @document.relativePath.replace('docs/','') %>">
       Edit and improve this page via GitHub!
-  </a>
-  <a href="<%- 'http://prose.io/#bevry/docpad-documentation/edit/master/' + @document.relativePath.replace('docs/','') %>">
+  </a></p>
+  <p><a href="<%- 'https://github.com/cjbarber/stanford-startup-wiki/edit/master/src/documents/' + @document.relativePath.replace('docs/','') %>">
       Edit and improve this page via Prose!
-  </a>
+  </a></p>
 	<div class="page-content"><%- @content %></div>
 </article>
