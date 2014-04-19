@@ -108,7 +108,7 @@ docpadConfig = {
 		repocloner:
 		    repos: [
 		        name: 'Plugin Wiki'
-		        path: 'src/documents/wiki'
+		        path: 'src/documents/pages'
 		        branch: 'master'
 		        url: 'https://github.com/cjbarber/stanford-startup-wiki.git'
 		    ]
